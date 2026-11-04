@@ -53,7 +53,7 @@ pub fn get_stdin_to_u64_method(get: &mut String) -> u64 {
   get.trim().parse::<u64>().expect("unkown")
   }
 
-/* Experimental implementation! Unknown limits
+/* Experimental implementation Unknown limits :)
 pub fn get_stdin_to_u128_method(get: &mut String) -> u128 {
   io::stdin().read_line(&mut *get).expect("failed to readline");
   get.trim().parse::<u128>().expect("unkown")
